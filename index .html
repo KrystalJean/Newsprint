@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Newspaper</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="newspaper">
+      <div id="page">
+        <div id="newspaper-header">
+          <p id="date">
+          <script>
+            n = new Date();
+            y = n.getFullYear();
+            m = n.getMonth() + 1;
+            d = n.getDate();
+            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+          </script></p>
+          <h1 id="newspaper-name">Waco Tribune Herald</h1>
+          <h2>Serving our community for 35 years.</h2>
+        </div>
+        <div id="newspaper-body">
+          <p>
+            <span class="first-letter">L</span>orem ipsum, dolor sit amet
+            consectetur adipisicing elit. Deleniti facere mollitia pariatur quis
+            repudiandae aut earum temporibus id, velit omnis. Asperiores porro
+            magnam libero sunt laboriosam modi minus tenetur a!
+          </p>
+          <p>
+            <span class="first-letter">L</span>orem ipsum dolor sit amet
+            consectetur adipisicing elit. Tenetur earum aut, asperiores eos
+            culpa, nisi explicabo architecto vel natus dignissimos cumque omnis
+            dolorum! Commodi ducimus molestiae, beatae voluptate iure aut.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>
