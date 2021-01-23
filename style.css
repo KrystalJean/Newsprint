@@ -38,6 +38,7 @@ body {
     font-family: 'Texturina', serif;
     padding:5px;
     margin-bottom: 10px;
+    font-size: 48px;
 }
 h2 {
     font-size: 18px;
@@ -49,5 +50,7 @@ p {
     font-size: 30px;
     font-family:fantasy;
 }
+
+
 
 
